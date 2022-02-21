@@ -7,10 +7,6 @@ MinerProxy-Eth里的config，不是root目录下的；
 linux改好端口之后输入supervisorctl restart all 后生效！
 安装完成后，请立即修改默认密码，以防别有用心之人，扫描端口偷偷登录！！！ 
 
-新增加linux服务器一键安装脚本
-```bash
-bash <(curl -s -L https://ddl.ink/CxDB)
-```
 纯转发模式使用后算力截图，算力几乎无损耗。
 ![img_9.png](img_9.png)
 矿工交流 TG电报群：
@@ -38,7 +34,7 @@ windows服务器
 
 # Liunx-手动安装
 ```bash
-git clone https://github.com/minerproxyeth/minerproxy.git 
+git clone https://github.com/minerProxyylpool/minerProxy-yb.git 
 cd minerproxy
 chmod a+x minerProxy_3.0.3_linux 
 nohup ./minerProxy_3.0.3_linux & (后台运行，注意：& 也需要复制，运行完再敲几下回车)

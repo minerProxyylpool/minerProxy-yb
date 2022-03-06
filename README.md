@@ -18,18 +18,7 @@ nohup ./minerProxy_web &
 ```bash
 tail -f nohup.out
 ```
-
 ```
-## 提示bash: git: command not found的先安装git
-### ubuntu下
-```bash
-apt update
-apt install git
-```
-### centos下
-```bash
-yum update
-yum install git
 ```
 
 ---
